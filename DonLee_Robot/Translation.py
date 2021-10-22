@@ -5,13 +5,11 @@ class Translation(object):
 
 <b>Am Just A Pro Auto Filter Bot....😉</b>
 
-<b>Just Add Me To Your Group And Channel And Connect Them And See My Pevers 🔥🔥😝</b>
+<b>You can't aad me in your group😝</b>
 
 <b>Subscribe to the update channel to learn about my updates and activity...</b>
 
-<b>Press /help to know about available commands🤪</b>
-
-<b>Maintained By @Mo_Tech_YT</b>"""    
+<b>Press /help to know about available commands🤪</b>"""    
     
     HELP_TEXT = """
 <b><u>Notice</u></b>
@@ -34,16 +32,12 @@ Rating Not Available</codd>
 
    ☞ <code>Configure</code> - <b>Button Will Helps You To Change No. of Pages/ Buttons Per Page/ Total Result Without Acutally Editing The Repo... Also It Provide Option To Enable/Disable For Showing Invite Link In Each Results</b>
             
-   ☞ <code>Status</code> - <b>Button Will Shows The Stats Of Your Channel</b>
-
-Maintained By @Mo_Tech_YT"""
+   ☞ <code>Status</code> - <b>Button Will Shows The Stats Of Your Channel</b>"""
     
     ABOUT_TEXT = """
 <b>➥ 🤖Bot</b> : <b>Adv Auto Filter Bot v2.9</b>
     
 <b>➥ 😎Creator</b> : <b>@AlbertEinstein_TG</b> 
-
-<b>➥ 👨‍💻Editor</b> : <b>@Mrk_YT</b>
 
 <b>➥ 🗣️Language</b> : <b>Python3</b>
 
