@@ -28,12 +28,12 @@ async def start(bot, update):
             await update.reply_text(
                 text=Mo_Tech_YT.MO_TECH_YT_14,
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text=" 📢 Join Group 📢", url=f"https://t.me/{Mo_Tech_YT.MO_TECH_YT_15}")]
+                    [ InlineKeyboardButton(text=" 🔰 Join Group 🔰", url=f"https://t.me/{Mo_Tech_YT.MO_TECH_YT_15}")]
               ])
             )
             return
         except Exception:
-            await update.reply_text(f"<b>This bot should be the admin on your update channel</b>\n\n<b>💢 ഈ ചാനലിൽ  @{Mo_Tech_YT.MO_TECH_YT_15} ബോട്ടിനെ അഡ്മിൻ ആക്. എന്നിട്ട് /start കൊടുക്</b>\n\n<b>🗣️ any Doubt @Mo_Tech_Group</b>")
+            await update.reply_text(f"<b>This bot should be the admin on your update channel</b>\n\n<b>💢 ഈ ചാനലിൽ  @{Mo_Tech_YT.MO_TECH_YT_15} ബോട്ടിനെ അഡ്മിൻ ആക്. എന്നിട്ട് /start കൊടുക്</b>\n\n<b>🗣️ any Doubt mention @admin in group and report your problems </b>")
             return
     try:
         file_uid = update.command[1]
@@ -73,11 +73,11 @@ async def start(bot, update):
                   [
                       Mo_Tech_YT.MO_TECH_YT_02
                           (
-                              '📢Update Channel', url='t.me/Mo_Tech_YT'
+                              '⚜️Join Channel⚜️', url='t.me/songs_movies'
                           ),
                       Mo_Tech_YT.MO_TECH_YT_02
                           (
-                              '💡More Botz', url='t.me/MT_Botz'
+                              '🔰Join Group🔰', url='t.me/movie_ott'
                           )
                   ],
                   [
@@ -89,7 +89,7 @@ async def start(bot, update):
                   [
                       Mo_Tech_YT.MO_TECH_YT_02
                           (
-                              '🚶Help', callback_data='help'
+                              '🤜Help🤛', callback_data='help'
                           )
                   ]           
               ]
