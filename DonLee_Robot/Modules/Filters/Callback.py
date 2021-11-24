@@ -153,7 +153,8 @@ async def cb_navg(bot, update: CallbackQuery):
     
     reply_markup = InlineKeyboardMarkup(temp_results)
     
-    text=f"🎬 Title : {query}\n🗃️ Total Files {len_result if len_result <= max_pages*8 else max_pages*8}</code>"
+    text=f"🎬 𝐓𝐢𝐭𝐥𝐞 : {query}\n💁🏻‍♂️ 𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐛𝐲: {msg.from_user.mention}\n🗃️ 𝐓𝐨𝐭𝐚𝐥 𝐟𝐢𝐥𝐞
+ {len_result if len_result <= max_pages*8 else max_pages*8}</code>"
                 
     try:
         await update.message.edit_caption(
@@ -1572,7 +1573,7 @@ async def my_instructs(bot, update: CallbackQuery):
    global VERIFY
    chat_id = update.message.chat.id
    user_id = update.from_user.id
-   await update.answer("Check if your spelling is correct first and then try adding the year and quality of the movie 😉. If you still didn'get your movie add the language 😁. If there is no result it just is'nt available 😌.", show_alert=True)
+   await update.answer("❌⚠️𝘿𝙤𝙣’𝙩 𝙨𝙚𝙣𝙙 𝙩𝙝𝙚 𝙬𝙤𝙧𝙙 “𝙢𝙤𝙫𝙞𝙚, 𝙙𝙪𝙗𝙗𝙚𝙙, 𝙡𝙖𝙣𝙜𝙪𝙖𝙜𝙚, 𝙨𝙚𝙣𝙙 𝙢𝙚, 𝙛𝙞𝙡𝙢, 𝙘𝙞𝙣𝙚𝙢𝙖, 𝙢𝙤𝙫𝙞𝙚 ….” 𝙤𝙣𝙡𝙮 𝙨𝙚𝙣𝙙 𝙢𝙤𝙫𝙞𝙚 𝙣𝙖𝙢𝙚 𝙬𝙞𝙩𝙝 𝙧𝙚𝙡𝙚𝙖𝙨𝙚 𝙮𝙚𝙖𝙧 𝙖𝙡𝙨𝙤, 𝙙𝙤𝙣’𝙩 𝙪𝙨𝙚 𝙨𝙩𝙮𝙡𝙞𝙨𝙝 𝙛𝙤𝙣𝙩. ⚠️❌\n𝙀𝙜 : \n𝙅𝙖𝙞 𝙗𝙝𝙞𝙢 2021 (✅)\n𝙅𝙖𝙞 𝙗𝙝𝙞𝙢 𝙩𝙖𝙢𝙞𝙡 (❎)\n𝙅𝙖𝙞 𝙗𝙝𝙞𝙢 𝙈𝙖𝙡𝙖𝙮𝙖𝙡𝙖𝙢 (❎)\n𝙅𝙖𝙞 𝙗𝙝𝙞𝙢 𝙨𝙚𝙣𝙙 𝙢𝙚 (❎)\n𝙅𝙖𝙞 𝙗𝙝𝙞𝙢 𝙢𝙤𝙫𝙞𝙚 / 𝙘𝙞𝙣𝙚𝙢𝙖 / 𝙛𝙞𝙡𝙢 (❎)\n𝘾𝙝𝙚𝙘𝙠 𝙥𝙞𝙣𝙣𝙚𝙙 𝙢𝙚𝙨𝙨𝙖𝙜𝙚 (📌)", show_alert=True)
    return
 
 
