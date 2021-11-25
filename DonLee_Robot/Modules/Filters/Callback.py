@@ -1572,7 +1572,7 @@ async def my_instructs(bot, update: CallbackQuery):
    global VERIFY
    chat_id = update.message.chat.id
    user_id = update.from_user.id
-   await update.answer("Don’t send word “ movie, dubbed, language, send me, film, cinema” Only send movie name with the release year also, Don’t You stylish fonts.\nEg:\nJai bhim 2021", show_alert=True)
+   await update.answer("Don’t send word “ movie, dubbed, language, send me, film, cinema” Only send movie name with the release year also, Don’t use stylish fonts.\nEg:\nJai bhim 2021", show_alert=True)
    return
 
 
