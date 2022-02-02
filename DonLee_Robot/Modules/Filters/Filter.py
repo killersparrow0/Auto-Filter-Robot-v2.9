@@ -207,7 +207,7 @@ async def auto_filter(bot, update):
         reply_markup = InlineKeyboardMarkup(buttons)
         await bot.send_message(
         chat_id=update.chat.id,
-        text=f"<b> Sorry i couldnt find anything for <code>{the_query}</code> 🤧\n Bro, Check Movie Name In #Google and Try ❗️ Then No Results Add Movie Year and Try , Again No Results ❓ Its Not Available In Our Database Or Movie Not Released ❗️\n</a>\n𝐏𝐫𝐞𝐬𝐬 𝐭𝐡𝐞 𝐛𝐮𝐭𝐭𝐨𝐧 𝐛𝐞𝐥𝐨𝐰 </b> 👇🏽",
+        text=f"<b> ⭕️Sorry i couldnt find anything for <code>{the_query}</code> 🤧\n\n⭕️Bro, Check Movie Name In #Google and Try ❗️ \n⭕️Then No Results Add Movie Year and Try. <code>eg: Jaibhim 2021</code> \n⭕️Again No Results❓ Then Its Not Available In Our Database Or Movie Not Released ❗️\n</a>\npress the button below </b> 👇🏽",
         reply_markup=reply_markup,
         parse_mode="html",
         reply_to_message_id=update.message_id)
@@ -319,7 +319,7 @@ async def auto_filter(bot, update):
           try:
               await bot.send_message(
                 chat_id = update.chat.id,
-                text=f"📀 Title : <code>{query}</code> \n🗃️ Total Files : <code>{len_results if len_results <= max_pages*8 else max_pages*8}</code>",
+                text=f"📀 Title : <code>{query}</code> \n🗃️ Total Files : <code>{len_results if len_results <= max_pages*8 else max_pages*8}</code>\nJOIN @movie_ott",
                 reply_markup=reply_markup,
                 parse_mode="html",
                 reply_to_message_id=update.message_id
