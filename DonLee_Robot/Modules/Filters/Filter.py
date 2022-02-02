@@ -207,7 +207,7 @@ async def auto_filter(bot, update):
         reply_markup = InlineKeyboardMarkup(buttons)
         await bot.send_message(
         chat_id=update.chat.id,
-        text=f"<b> 𝗦𝗼𝗿𝗿𝘆 𝗜 𝗰𝗼𝘂𝗹𝗱𝗻'𝘁 𝗳𝗶𝗻𝗱 𝗮𝗻𝘆𝘁𝗵𝗶𝗻𝗴 𝗳𝗼𝗿 <code>{the_query}</code> 🤧\n 𝐂𝐡𝐞𝐜𝐤 𝐬𝐩𝐞𝐥𝐥𝐢𝐧𝐠 𝐢𝐧<a href=https://google.com> 𝐆𝐨𝐨𝐠𝐥𝐞 </a>\n𝐏𝐫𝐞𝐬𝐬 𝐭𝐡𝐞 𝐛𝐮𝐭𝐭𝐨𝐧 𝐛𝐞𝐥𝐨𝐰 </b> 👇🏽",
+        text=f"<b> Sorry i couldnt find anything for <code>{the_query}</code> 🤧\n Bro, Check Movie Name In #Google and Try ❗️ Then No Results Add Movie Year and Try , Again No Results ❓ Its Not Available In Our Database Or Movie Not Released ❗️\n</a>\n𝐏𝐫𝐞𝐬𝐬 𝐭𝐡𝐞 𝐛𝐮𝐭𝐭𝐨𝐧 𝐛𝐞𝐥𝐨𝐰 </b> 👇🏽",
         reply_markup=reply_markup,
         parse_mode="html",
         reply_to_message_id=update.message_id)
